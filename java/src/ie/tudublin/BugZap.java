@@ -1,3 +1,4 @@
+
 package ie.tudublin;
 
 import processing.core.PApplet;
@@ -112,7 +113,8 @@ public class BugZap extends PApplet {
 
 	int gameMode = 0;
 
-	public void draw() {
+	public void draw() 
+	{
 		background(0);
 		if (gameMode == 0)
 		{
@@ -133,6 +135,6 @@ public class BugZap extends PApplet {
 		{
 			gameMode = 1;
 		}
-
 	}
 }
+
