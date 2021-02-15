@@ -168,7 +168,13 @@ public class Loops extends PApplet {
                     float y2 = cos(theta * i) * radius;
                     line(cx + x1, cy +y1, cx + x2, cy + y2);
                 }
+                break;
             }
+            case 9:
+            {
+                int sides;
+            }
+
 
         }
     }
